@@ -1,0 +1,38 @@
+
+
+.footer-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080b24;
+    padding: 40px 0;
+    flex-direction: column;
+}
+
+.footer-area h4{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0;
+}
+.social-icons-flex{
+    display: flex;
+    margin-top:15px;
+}
+
+.social-icons-flex .icon{
+    margin-right: 10px;
+    font-size: 30px;
+    color: #fff;
+}
+
+
+
+/* 576 */
+@media screen and (max-width:576px){
+    .footer-area h4{
+        font-size: 12px;
+    }
+}
+
+

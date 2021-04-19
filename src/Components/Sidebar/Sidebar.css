@@ -1,0 +1,135 @@
+
+.sidebar-main-area{
+    display: flex;
+
+}
+
+.sidebar-left-main-part{
+    background-color: #19103f;
+    padding: 20px 30px;
+    width: 15%;
+    height: 100vh;
+}
+
+
+.sidebar-left-main-part h1{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.all-info-part{
+    width: 85%;
+}
+.appbar{
+    width: 98%;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    align-items: center;
+
+}
+.book-link{
+    margin-left: 30px;
+}
+.bg{
+    background-color: #382a71;;
+    padding: 0px 8px;
+}
+
+.info-main-part-here{
+    padding: 20px 30px;
+
+}
+
+.action-flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.action-icon{
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.action-flex p{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.side-bar-icon{
+    display: none;
+}
+
+
+/* ===================================== responsive ============================================= */
+
+
+/* 992 */
+@media screen and (max-width:992px){
+    .sidebar-left-main-part h1{
+        font-size: 15px;
+    }
+    .action-flex p{
+        font-size: 10px;
+    }
+}
+
+
+/* 768 */
+@media screen and (max-width:768px){
+    .sidebar-main-area{
+        flex-direction: column;
+    }
+    .sidebar-main-area h1{
+        display: none;
+    }
+    .sidebar-left-main-part{
+        width: 100%;
+        display: flex;
+        height: 40px;
+        align-items: center;
+    }
+    .action-flex{
+        margin-right: 30px;
+    }
+    .action-flex p{
+        font-size: 18px;
+    }
+    .side-bar-icon{
+        display: block;
+        font-size: 25px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .all-info-part{
+        width: 100%;
+    }
+    
+}
+
+
+/* 576 */
+@media screen and (max-width:576px){
+    .search-btn{
+        padding: 10px;
+    }
+    .action-flex p{
+        font-size: 11px;
+    }
+    .appbar h2{
+        font-size: 12px;
+    }
+
+    .book-link{
+        font-size: 12px;
+        
+    }
+    .book-link .search-btn{
+        font-size: 12px;
+        padding: 5px;
+    }
+}

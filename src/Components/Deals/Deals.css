@@ -1,0 +1,13 @@
+
+
+.deals-area{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deals-area h1{
+    font-size: 30px;
+}

@@ -1,0 +1,25 @@
+
+
+.notfound-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 76.8vh;
+    text-align: center;
+}
+
+.notfound-area img{
+    width: 40%;
+    margin: auto;
+}
+.gotohome{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    background-color: #19103F;
+    padding: 10px 30px;
+    margin-bottom: 100px;
+}

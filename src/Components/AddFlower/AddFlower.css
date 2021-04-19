@@ -1,0 +1,80 @@
+
+.add-flower-area{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    text-align-last: left;
+    padding: 20px;
+    margin: 50px 0;
+}
+.add-flower-area input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    padding: 8px 0;
+    outline: none;
+}
+.input-flex{
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+}
+.input-flex input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 50%;
+    padding: 8px 0;
+    outline: none;
+}
+
+.input-flex input:first-child{
+    margin-right: 55px;
+}
+
+.upload{
+    text-align: left;
+    width: 50%;
+    margin-top: 15px;
+}
+.upload p{
+    margin: 0;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.save-btn{
+   padding: 10px 100px;
+   color: #fff;
+   border: none;
+   outline: none;
+
+}
+.blue{
+    background-color: #19103f;
+    cursor: pointer;
+}
+
+.gray{
+    background-color: gray;
+}
+
+
+
+@media screen and (max-width: 576px){
+    .input-flex{
+        flex-direction: column;
+    }
+    .input-flex input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .input-flex input:first-child{
+        margin-right: 0;
+    }
+    .upload{
+        width: 100%;
+    }
+}

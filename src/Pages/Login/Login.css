@@ -1,0 +1,43 @@
+
+
+.login-main-area{
+    height: 67vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.continue-with-google{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.continue-with-google img{
+    width: 30px;
+}
+.continue-with-google h4{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width:576px){
+    .continue-with-google h4{
+        font-size: 8px;    
+    }
+    .continue-with-google img{
+        width: 15px;
+    }
+    .login-main-area {
+        width: 100%;
+    }
+    .continue-with-google{
+        width: 80%;
+    }
+}
